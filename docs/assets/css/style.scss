@@ -1,6 +1,15 @@
 --- --- @import "jekyll-theme-minimalistic";
 a,
+.wrapper a,
+.sidebar a,
 body a,
 html a {
-    color: #ff4700;
+    color: #ff4700 !important;
+}
+
+.wrapper,
+.sidebar,
+body,
+html {
+    background-color: #373a3c !important;
 }
